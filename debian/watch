@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-d3-scale-chromatic-$1.tar.gz/ \
+ https://github.com/d3/d3-scale-chromatic/releases .*/archive/.*/v?([\d\.]+).tar.gz

@@ -1,0 +1,6 @@
+#False positive
+node-d3-scale-chromatic source: source-is-missing src/sequential-multi/viridis.js
+node-d3-scale-chromatic source: very-long-line-length-in-source-file src/sequential-multi/viridis.js line 14 is 1574 characters long (>512)
+node-d3-scale-chromatic source: source-contains-prebuilt-javascript-object src/sequential-multi/viridis.js
+node-d3-scale-chromatic source: very-long-line-length-in-source-file README.md line 234 is 730 characters long (>512)
+node-d3-scale-chromatic source: very-long-line-length-in-source-file package.json line 36 is 628 characters long (>512)

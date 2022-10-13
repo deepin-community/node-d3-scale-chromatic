@@ -1,0 +1,60 @@
+node-d3-scale-chromatic (1.5.0-3) unstable; urgency=medium
+
+  [ Yadd ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+
+  [ Nilesh Patra ]
+  * Move build command to d/nodejs/build
+  * Bump Standards-Version to 4.6.0 (no changes needed)
+  * Update and add overrides
+
+ -- Nilesh Patra <nilesh@debian.org>  Fri, 22 Oct 2021 20:12:28 +0530
+
+node-d3-scale-chromatic (1.5.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Enable nocheck build profile and add node-d3-color build dependency
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 16 Dec 2020 18:16:47 +0530
+
+node-d3-scale-chromatic (1.5.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Kannan V M ]
+  * New upstream version 1.5.0
+
+  [ Xavier Guimard ]
+  * Add "Rules-Requires-Root: no"
+
+ -- Kannan V M <kannan.mail@disroot.org>  Sun, 08 Mar 2020 23:18:31 +0530
+
+node-d3-scale-chromatic (1.3.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Drop unneeded version constraints from (build) dependencies
+  * Fix debian/copyright
+  * Add description for patch
+  * Switch install to pkg-js-tools
+  * Add patch to make the build reproducible. Thanks to Chris Lamb
+    (Closes: #930911)
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 06 Aug 2019 22:39:38 +0200
+
+node-d3-scale-chromatic (1.3.3-1) unstable; urgency=low
+
+  [ Ambady Anand S, Nilesh ]
+  * Initial release (Closes: #920788)
+
+ -- Nilesh <npatra974@gmail.com>  Wed, 29 May 2019 13:33:33 -0400
