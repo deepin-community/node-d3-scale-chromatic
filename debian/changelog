@@ -1,3 +1,47 @@
+node-d3-scale-chromatic (1.5.0+~1.5.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Update lintian override info format in d/source/lintian-overrides
+    on line 2-6.
+  * Update standards version to 4.6.2, no changes needed.
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Sat, 09 Sep 2023 19:02:12 +0400
+
+node-d3-scale-chromatic (1.5.0-7) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-d3-scale-chromatic: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 04 Dec 2022 00:39:26 +0000
+
+node-d3-scale-chromatic (1.5.0-6) unstable; urgency=medium
+
+  * Team upload
+  * Replace /releases by /tags in GitHub urls
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 09:18:30 +0100
+
+node-d3-scale-chromatic (1.5.0-5) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Yadd ]
+  * Fix filenamemangle
+  * Add fix for rollup 3 (Closes: #1022615)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 12:00:28 +0200
+
+node-d3-scale-chromatic (1.5.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Drop dependency on nodejs
+
+ -- Paul Gevers <elbrus@debian.org>  Tue, 05 Jul 2022 21:48:41 +0200
+
 node-d3-scale-chromatic (1.5.0-3) unstable; urgency=medium
 
   [ Yadd ]
