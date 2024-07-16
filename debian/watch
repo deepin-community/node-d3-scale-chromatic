@@ -1,5 +1,8 @@
 version=4
 opts=\
 dversionmangle=auto,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-d3-scale-chromatic-$1.tar.gz/ \
- https://github.com/d3/d3-scale-chromatic/releases .*/archive/.*/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-d3-scale-chromatic-$1/ \
+ https://github.com/d3/d3-scale-chromatic/tags .*/archive/.*/v?([\d\.]+).tar.gz group
+
+opts="searchmode=plain,component=types-d3-scale-chromatic,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-d3-scale-chromatic-$1/" \
+ https://registry.npmjs.org/@types/d3-scale-chromatic https://registry.npmjs.org/@types/d3-scale-chromatic/-/d3-scale-chromatic-([\d\.]+)@ARCHIVE_EXT@ group
